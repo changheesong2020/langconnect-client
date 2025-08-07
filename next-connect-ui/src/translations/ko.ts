@@ -22,6 +22,7 @@ export const ko = {
     documents: '문서',
     search: '검색',
     apiTester: 'API 테스터',
+    ragSystem: 'RAG 시스템',
     mainTitle: '메인'
   },
   collections: {

@@ -22,6 +22,7 @@ export const en = {
     documents: 'Documents',
     search: 'Search',
     apiTester: 'API Tester',
+    ragSystem: 'RAG System',
     mainTitle: 'Main'
   },
   collections: {
