@@ -8,6 +8,7 @@ import {
   Database,
   Code,
   Globe,
+  Brain,
 } from "lucide-react"
 import {
   Sidebar,
@@ -66,6 +67,12 @@ export function AppSidebar() {
       href: "/api-tester",
       icon: Code,
       isActive: pathname.startsWith("/api-tester"),
+    },
+    {
+      name: t("sidebar.ragSystem"),
+      href: "/rag-system",
+      icon: Brain,
+      isActive: pathname.startsWith("/rag-system"),
     },
   ]
 
